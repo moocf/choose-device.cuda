@@ -2,26 +2,16 @@ Selection of compute-device which best matches criteria.
 
 ```c
 1. Check how many compute devices are attached.
-2. List some properties of each device.
+2. Select device with atleast compute capability 1.3.
 ```
 
 ```bash
 # OUTPUT
-COMPUTE DEVICE 0:
-Name: GeForce GTX 1050
-Compute capability: 6.1
-Multiprocessors: 5
-Clock rate: 1493 MHz
-Global memory: 4096 MB
-Constant memory: 64 KB
-Shared memory per block: 48 KB
-Registers per block: 65536
-Threads per block: 1024 (max)
-Threads per warp: 32
-Block dimension: 1024x1024x64 (max)
-Grid dimension: 2147483647x65535x65535 (max)
-Device copy overlap: yes
-Kernel execution timeout: yes
+Current CUDA device: 0
+CUDA device with atleast compute capability 1.3: 0
+
+Cards that have compute capability 1.3 or higher
+support double-precision floating-point math.
 ```
 
 See [main.cu] for code.
