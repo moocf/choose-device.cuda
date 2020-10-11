@@ -14,9 +14,10 @@ Cards that have compute capability 1.3 or higher
 support double-precision floating-point math.
 ```
 
-See [main.cu] for code.
+See [main.cu] for code, [main.ipynb] for notebook.
 
 [main.cu]: main.cu
+[main.ipynb]: https://colab.research.google.com/drive/1mVl4hFESWT-6BLQVrQS98Wj_CGMalY8y?usp=sharing
 
 
 ### references
