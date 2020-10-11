@@ -2,7 +2,7 @@
 #include <device_launch_parameters.h>
 #include <stdio.h>
 #include <string.h>
-#include "error.h"
+#include "support.h"
 
 
 // 1. Check how many compute devices are attached.
