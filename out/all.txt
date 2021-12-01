@@ -1,0 +1,5 @@
+Current CUDA device: 0
+CUDA device with atleast compute capability 1.3: 0
+
+Cards that have compute capability 1.3 or higher
+support double-precision floating-point math.

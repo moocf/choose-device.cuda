@@ -6,20 +6,24 @@ Selection of compute-device which best matches criteria.
 ```
 
 ```bash
-# OUTPUT
-Current CUDA device: 0
-CUDA device with atleast compute capability 1.3: 0
+$ nvcc -std=c++17 -Xcompiler -O3 main.cu
+$ ./a.out
 
-Cards that have compute capability 1.3 or higher
-support double-precision floating-point math.
+# Current CUDA device: 0
+# CUDA device with atleast compute capability 1.3: 0
+#
+# Cards that have compute capability 1.3 or higher
+# support double-precision floating-point math.
 ```
 
-See [main.cu] for code, [main.ipynb] for notebook.
+See [main.cu] for code.
 
 [main.cu]: main.cu
-[main.ipynb]: https://colab.research.google.com/drive/1mVl4hFESWT-6BLQVrQS98Wj_CGMalY8y?usp=sharing
+
+<br>
+<br>
 
 
-### references
+## References
 
-- [CUDA by Example :: Jason Sanders, Edward Kandrot](http://www.mat.unimi.it/users/sansotte/cuda/CUDA_by_Example.pdf)
+- [CUDA by Example :: Jason Sanders, Edward Kandrot](https://gist.github.com/wolfram77/72c51e494eaaea1c21a9c4021ad0f320)
